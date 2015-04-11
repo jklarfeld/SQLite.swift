@@ -27,7 +27,6 @@
 		DC650B9619F0CDC3002FBE91 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC650B9519F0CDC3002FBE91 /* Expression.swift */; };
 		DC70AC991AC2331000371524 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC37744219C8DC91004FCF85 /* libsqlite3.dylib */; };
 		DC70AC9A1AC2331100371524 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC37744219C8DC91004FCF85 /* libsqlite3.dylib */; };
-		DC70AC9B1AC2331400371524 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5B12121ABE3298000DA146 /* libsqlite3.dylib */; };
 		DC9D389C1AAD458500780AE7 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9D389B1AAD458500780AE7 /* fts3_tokenizer.h */; };
 		DC9D389D1AAD458500780AE7 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9D389B1AAD458500780AE7 /* fts3_tokenizer.h */; };
 		DCAD429719E2E0F1004A51DF /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD429619E2E0F1004A51DF /* Query.swift */; };
@@ -701,6 +700,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -743,7 +743,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -767,6 +767,7 @@
 			baseConfigurationReference = DC37742E19C8CE67004FCF85 /* SQLite.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -785,6 +786,7 @@
 			baseConfigurationReference = DC37742E19C8CE67004FCF85 /* SQLite.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
